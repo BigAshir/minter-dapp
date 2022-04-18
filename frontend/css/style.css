@@ -11,7 +11,7 @@
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: black;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -89,6 +89,7 @@ header .container {
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
+  padding-top: -50px;
 }
 
 .not-connected p {
