@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "SmallMan.xyz";
-const description = "cheese balls";
+const namePrefix = "Mashi";
+const description = "Made with love!";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -35,7 +35,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://SmallMan.xyz", // Replace with your website or remove this line if you do not have one.
+  //external_url: "https://SmallMan.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -43,16 +43,16 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'SmallMan.xyz';
-const CONTRACT_SYMBOL = 'SM';
+const CONTRACT_NAME = 'Mashi';
+const CONTRACT_SYMBOL = 'MA';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x4823308B43089002ccFeAC2Fe6a300BC101FA1bc';
 const TREASURY_ADDRESS = '0x4823308B43089002ccFeAC2Fe6a300BC101FA1bc';
 const MAX_SUPPLY = 15; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.0001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
@@ -95,7 +95,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "",
       share: 100,
     },
   ],
