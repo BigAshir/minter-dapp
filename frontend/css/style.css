@@ -65,7 +65,8 @@ header .container {
 /* LOGO */
 
 .logo{
-  padding-top: 20px;
+  padding-top: 0px;
+  padding-left: 100px;
 }
 
 /* NOT CONNECTED */
