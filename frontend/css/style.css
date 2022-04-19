@@ -36,6 +36,7 @@ body {
   flex-direction: column;
   max-width: 960px;
   margin: 0 auto;
+  padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
   height: 80px;
@@ -51,7 +52,6 @@ header {
 header .container {
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 
 }
 
