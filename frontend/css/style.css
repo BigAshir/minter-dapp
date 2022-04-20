@@ -63,10 +63,6 @@ header .container {
 
 /* LOGO */
 
-.logo {
-  margin-top: 100px;
-}
-
 
 /* NOT CONNECTED */
 .not-connected {
@@ -89,20 +85,21 @@ header .container {
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
-
+  text-align: center;
 }
 
 .not-connected h2{
   border: 3px;
   border-style: solid;
   border-color: black;
-  padding: 10px;
+  text-align: center;
 }
 
 .not-connected p {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   line-height: 1.8;
+  text-align: center;
 }
 
 .not-connected a {
