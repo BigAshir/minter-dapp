@@ -20,10 +20,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: url("../images/x-icon/background.jpeg");
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -86,13 +87,14 @@ header .container {
   margin: 2rem 0;
   font-size: 3.5rem;
   align-items: center;
-  padding-left: 200px;
+  padding-left: 120px;
+  padding-top: 30px;
 }
 
 .not-connected h2{
   text-decoration: underline;
   align-items: center;
-  padding-left: 200px;
+  padding-left: 120px;
 }
 
 .not-connected p {
@@ -100,7 +102,7 @@ header .container {
   font-family: var(--font-secondary);
   line-height: 1.8;
   align-items: center;
-  padding-left: 200px;
+  padding-left: 120px;
 }
 
 .not-connected a {
@@ -332,7 +334,7 @@ section {
 .splide {
   position: absolute;
   top: 90px;
-  left: 5rem;
+  left: 1rem;
   z-index: -1;
 }
 
