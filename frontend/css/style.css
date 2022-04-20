@@ -86,6 +86,7 @@ header .container {
   margin: 2rem 0;
   font-size: 3.5rem;
   align-items: center;
+  padding-left: 400px;
 }
 
 .not-connected h2{
@@ -93,6 +94,7 @@ header .container {
   border-style: solid;
   border-color: black;
   align-items: center;
+  padding-left: 400px;
 }
 
 .not-connected p {
@@ -100,6 +102,7 @@ header .container {
   font-family: var(--font-secondary);
   line-height: 1.8;
   align-items: center;
+  padding-left: 400px;
 }
 
 .not-connected a {
