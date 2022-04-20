@@ -88,14 +88,14 @@ header .container {
   margin: 2rem 0;
   font-size: 3.5rem;
   align-items: center;
-  padding-left: 120px;
+  padding-left: 0px;
   padding-top: 30px;
 }
 
 .not-connected h2{
   text-decoration: underline;
   align-items: center;
-  padding-left: 120px;
+  padding-left: 0px;
   padding-top: 30px;
 }
 
@@ -104,7 +104,7 @@ header .container {
   font-family: var(--font-secondary);
   line-height: 1.8;
   align-items: center;
-  padding-left: 120px;
+  padding-left: 0px;
 }
 
 .not-connected a {
