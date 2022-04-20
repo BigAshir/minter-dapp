@@ -1,5 +1,5 @@
 const contractAddress = "0x53B36fB63C8f74993504c353777ccb9209407bB5"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const chain = 'polygon'; // rinkeby or polygon
 n
 const welcome_h1 = "Welcome to the Mashi NFT Project!";
 const welcome_p = 'Made with love!';
