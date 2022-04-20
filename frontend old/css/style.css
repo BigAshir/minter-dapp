@@ -1,18 +1,17 @@
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Poppins", sans-serif;
-  --font-secondary: "Arvo", serif;
-  --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
+  --font-primary: "Akshar", sans-serif;
+  --font-secondary: "Akshar", sans-serif;
+  --bg-color: #00aeff;
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: black;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -35,17 +34,17 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 1rem 2rem;
-  justify-content: center;
   overflow: hidden;
+  height: 80px;
 }
 
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
+  background-color: black;
   box-shadow: var(--header-shadow);
 }
 
@@ -53,12 +52,19 @@ header .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .menu {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+/* LOGO */
+
+.logo{
+  padding-top: 0px;
 }
 
 /* NOT CONNECTED */
@@ -82,6 +88,14 @@ header .container {
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
+
+}
+
+.not-connected h2{
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
 }
 
 .not-connected p {
