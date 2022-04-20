@@ -246,7 +246,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 300px;
 }
 
 .info-container {
