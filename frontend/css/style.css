@@ -156,7 +156,8 @@ header .container {
 /* CARD */
 
 .card {
-  align-items: center;
+  padding-left: 100px;
+  padding-top: 100px;
   background-color: var(--bg-color);
   border-radius: 5px;
   border: 3px solid var(--accent-color);
