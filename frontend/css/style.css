@@ -96,6 +96,7 @@ header .container {
   text-decoration: underline;
   align-items: center;
   padding-left: 120px;
+  padding-top: 30px;
 }
 
 .not-connected p {
