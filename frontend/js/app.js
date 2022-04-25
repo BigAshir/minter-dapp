@@ -70,9 +70,7 @@ const updateConnectStatus = async () => {
     notConnected.classList.remove('show-not-connected');
     notConnected.classList.add('hidden');
     // SHOW SPINNER
-    spinner.classList.remove('hidden');
-    window.contract = new web3.eth.Contract(abi, contractAddress);
-    loadInfo();
+
   } else {
     onboardButton.innerText = "Connect MetaMask";
     // HIDE SPINNER
@@ -89,12 +87,7 @@ const updateConnectStatus = async () => {
           notConnected.classList.remove('show-not-connected');
           notConnected.classList.add('hidden');
           // SHOW SPINNER
-          spinner.classList.remove('hidden');
-          onboardButton.disabled = true;
-          window.address = accts[0];
-          accounts = accts;
-          window.contract = new web3.eth.Contract(abi, contractAddress);
-          loadInfo();
+
         });
     };
   }
